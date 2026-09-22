@@ -69,3 +69,35 @@
 <img width="1037" height="542" alt="image" src="https://github.com/user-attachments/assets/520ad7ed-8e3a-48ab-a77a-d5a096f9073d" />
 <img width="751" height="583" alt="image" src="https://github.com/user-attachments/assets/ad6e0757-dd1f-4983-a3b4-c672cb490787" />
 
+
+## Задание 3. StorageClass
+
+Задача
+
+Создать Deployment приложения, использующего PVC, созданный на основе StorageClass.
+
+Шаги выполнения
+
+- Создать Deployment приложения, состоящего из контейнеров busybox и multitool, использующего созданный ранее PVC.
+
+- Создать SC и PVC для подключения папки на локальной ноде, которая будет использована в поде.
+
+- Продемонстрировать, что контейнер multitool может читать данные из файла в смонтированной директории, в который busybox записывает данные каждые 5 секунд.
+
+Что сдать на проверку
+
+Манифесты:
+
+1. sc.yaml
+
+Скриншоты:
+
+1. каждый шаг выполнения задания, начиная с шага 2
+
+2. Шаблоны манифестов с учебными комментариями
+
+
+### Решение
+<img width="894" height="564" alt="image" src="https://github.com/user-attachments/assets/e2c29b56-c478-4842-be70-13b69478caf3" />
+<img width="996" height="468" alt="image" src="https://github.com/user-attachments/assets/8ae1673d-193f-49ac-bb35-3b0b21b9b741" />
+<img width="1068" height="419" alt="image" src="https://github.com/user-attachments/assets/da55853d-5d2e-4fbb-8c86-8119eceec5c9" />
